@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<h1>Hello world</h1>
+<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Asperiores beatae cumque, distinctio doloribus et fugiat in iusto laborum natus necessitatibus nemo quae quia recusandae repudiandae soluta suscipit velit vitae voluptates.</p>
+{% for i in news %}
+    <h3>{{ i.news_head }}</h3>
+    <p>{{ i.main_text }}</p>
+{% endfor %}
+</body>
+</html>
